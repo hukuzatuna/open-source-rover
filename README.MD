@@ -21,7 +21,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
 | Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
 | Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
-| Max speed                                 | 6.7 [in/s]               | 17.018 [cm/s]          |
+| Approximate Max speed                                 | 9.7 [in/s]               | 24.6 [cm/s]          |
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
@@ -56,7 +56,11 @@ In addition to this repository which holds all the documentation for this projec
 
 https://opensourcerover.jpl.nasa.gov
 
-There is also a user-run forum to help facilitate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**  On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
+There is also a user-run forum to help facilitate discussion about the project.
+
+**__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**
+
+On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
 
 http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
 
@@ -94,6 +98,8 @@ This project assumes you have some standard tools to help assemble the project. 
  * Hand Drill or Drill Press
  * Dremel, Band saw, or hand saw
  * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
+ 
+ Here is [an Amazon list of some of the tools that may be useful](http://a.co/gnoN2LW)
 
 #### Optional Tools
  * 3D printer
@@ -122,15 +128,10 @@ The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts neces
 ##### Cart Share
 In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
 
-[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)
+|[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
+|---|---|---|---|
 
-[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)
-
-[Pololu](https://www.pololu.com/wishlist/1J10953)
-
-[Adafruit](https://www.adafruit.com/wishlists/460400)
-
-Digikey: 
+**Digikey:** 
 The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](Bill%20of%20Materials%20Files/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
 
 #### 3D printing and Laser cutting
@@ -159,13 +160,23 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
+
+
  ## Happy building!!
  If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
  ## Project Team
  ### Project Lead:
- Michael Cox
+ Michael (Mik) Cox
  ### Development Team:
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
  Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
+
+## Additional Projects!
+We recognize that there might be a some individuals, hobbyists, and groups that might be prohobited in participating in this project because of the skills/tools necessary, or the budget. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be espeically great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 
+
+https://hackaday.io/project/158208-sawppy-the-rover
+
+https://github.com/Roger-random/Sawppy_Rover
+
